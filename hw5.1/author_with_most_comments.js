@@ -13,7 +13,7 @@ db.posts.aggregate([
 	{
 		$sort :
 		{
-			posts : 1
+			posts : -1
 		}
 	},
 	{
